@@ -1,0 +1,29 @@
+// must see 
+// https://www.youtube.com/watch?v=1UcLoOD1lRM&t=29s
+
+// set nmp environment for developing in ts 
+
+1. create package.json
+npm init -y
+
+2. add typescript to project
+npm install typescript --save-dev
+yarn add -D typescript
+
+3. initialize tsconfig.json file
+npx tsc --init
+
+4. point to a ts file and run it  
+yarn add -D ts-node
+
+5. SOS - for constant changes during develloping code
+yarn add -D ts-node-dev
+
+5b another way for constant chnages
+yarn add nodemon
+
+6. var types on hover
+yarn add express
+
+7. access at type definitions on nodeJS packages 
+yarn add -D @types/node
